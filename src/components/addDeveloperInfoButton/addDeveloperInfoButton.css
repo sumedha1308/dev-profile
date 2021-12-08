@@ -1,0 +1,49 @@
+@media all and (min-width: 600px) {
+  .question-add-dev-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    margin: 30px auto;
+  }
+
+  .add-dev-btn {
+    font-size: 3rem;
+    color: white;
+    background-color: #7c639f;
+    height: 80px;
+    border-radius: 15px;
+    padding: 0 5%;
+  }
+
+  .add-dev-btn :active,
+  .add-dev-btn :focus {
+    border: 0.2em solid skyblue; /* here configure as your needs */
+  }
+}
+
+@media all and (max-width: 600px) {
+  .question-add-dev-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    margin: 30px auto;
+  }
+
+  .add-dev-btn {
+    font-size: 36px;
+    color: white;
+    background-color: #7c639f;
+    height: 80px;
+    border-radius: 15px;
+    padding: 0 5%;
+  }
+
+  .add-dev-btn :active,
+  .add-dev-btn :focus {
+    border: 0.2em solid skyblue; /* here configure as your needs */
+  }
+}

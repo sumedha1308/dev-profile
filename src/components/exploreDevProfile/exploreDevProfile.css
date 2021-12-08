@@ -1,0 +1,47 @@
+@media all and (min-width: 600px) {
+  .explore-dev-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .explore-dev-profiles {
+    /* width: 50%; */
+    margin: 50px;
+    font-size: 58px;
+    color: #3f3d56;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .horizontal-line {
+    height: 2px;
+    background: #d0cde1;
+    margin: 0 50px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .explore-dev-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .explore-dev-profiles {
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+    color: #3f3d56;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0 em;
+  }
+
+  .horizontal-line {
+    height: 2px;
+    background: #d0cde1;
+    margin: 0 50px;
+    margin-bottom: 30px;
+  }
+}
