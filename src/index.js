@@ -11,6 +11,8 @@ import DevIndividualResult from './components/devIndivisualResult/devIndivisualR
 import CouldNotFindLookingFor from './components/couldNotFindLookingFor/CouldNotFindLookingFor';
 import AddDeveloperInfoButton from './components/addDeveloperInfoButton/AddDeveloperInfoButton';
 import Footer from './components/footer/Footer';
+import FormFieldDevInfo from './components/formFieldDevInfo/FormFieldDevInfo';
+import GithubLogo from './resources/github.png';
 
 const headerText = 'The Developer Repository';
 const exploreDevProfile = 'Explore developer profile';
@@ -26,6 +28,7 @@ const element = (
     <DevIndividualResult key={key} githubId={githubId} avatarUrl={avatarUrl} />
     <CouldNotFindLookingFor />
     <AddDeveloperInfoButton onButtonClick={true} />
+    <FormFieldDevInfo src={GithubLogo} label="Github*" name="githubId" onChange={'sumedha'} />
     <Footer />
   </div>
 );

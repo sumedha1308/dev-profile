@@ -1,0 +1,33 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+.form-item {
+  margin: 30px 0;
+}
+
+.logo-label-input {
+  margin-bottom: 20px;
+}
+
+.label-input {
+  color: #000;
+  font-size: 24px;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+
+.logo-img {
+  vertical-align: middle;
+  margin-left: 6%;
+}
+
+.dev-profile-item {
+  font-size: 24px;
+  color: #555;
+  margin-left: 6%;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #d0cde1;
+  border-style: solid;
+  border-width: 1px;
+  text-indent: 15px;
+  background-color: #fefefe;
+}
