@@ -13,6 +13,7 @@ import AddDeveloperInfoButton from './components/addDeveloperInfoButton/AddDevel
 import Footer from './components/footer/Footer';
 
 const headerText = 'The Developer Repository';
+const exploreDevProfile = 'Explore developer profile';
 const key = 'sumedha1308';
 const githubId = 'sumedha1308';
 const avatarUrl = 'https://avatars.githubusercontent.com/u/25945916?v=4';
@@ -20,7 +21,7 @@ const avatarUrl = 'https://avatars.githubusercontent.com/u/25945916?v=4';
 const element = (
   <div>
     <Header headTitle={headerText} />
-    <ExploreDevProfile />
+    <ExploreDevProfile headLineAfterImage={exploreDevProfile} />
     <SearchBox />
     <DevIndividualResult key={key} githubId={githubId} avatarUrl={avatarUrl} />
     <CouldNotFindLookingFor />

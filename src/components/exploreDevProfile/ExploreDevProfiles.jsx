@@ -3,9 +3,9 @@
 import React from 'react';
 import './exploreDevProfile.css';
 
-const ExploreDevProfile = () => (
+const ExploreDevProfile = ({ headLineAfterImage }) => (
   <div className="explore-dev-container">
-    <div className="explore-dev-profiles">Explore Developer Profiles</div>
+    <div className="explore-dev-profiles">{headLineAfterImage}</div>
     <hr className="horizontal-line"></hr>
   </div>
 );

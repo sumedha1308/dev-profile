@@ -5,8 +5,13 @@ import headerImage from '../../resources/header-image.png';
 
 const Header = ({ headTitle }) => (
   <div className="homePage-header-container">
-    <h1 className="homePage-header-text">{headTitle}</h1>
-    <img src={headerImage} className="homePage-header-image" alt="homePage-headerImage"></img>
+    <header className="homepage-header-header">
+      <div className="homepage-header-main-heading">
+        {headTitle}
+        {/* <br className="desktop-br" /> Repository */}
+      </div>
+      <img className="homepage-header-main-img" src={headerImage} alt="header" />
+    </header>
   </div>
 );
 

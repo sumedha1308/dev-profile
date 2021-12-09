@@ -1,70 +1,54 @@
 * {
   margin: 0;
 }
+/* stylelint-disable indentation */
+.homepage-header-header {
+  width: 100%;
+  background-color: #2f2e41;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
-@media all and (min-width: 600px) {
-  .homePage-header-container {
-    display: flex;
-    flex-direction: row;
-    height: 500px;
-    margin: 0 auto;
-    width: 100%;
-    background-color: #2f2e41;
-    overflow: hidden;
-  }
-
-  .homePage-header-text {
-    width: 50%;
-    margin-top: 150px;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 5rem;
-    letter-spacing: 0 em;
-    text-align: left;
-    color: #fff;
-  }
-
-  .homePage-header-image {
-    width: 50%;
-    margin-top: 60px;
-    margin-right: 60px;
-    margin-bottom: 60px;
-  }
+  /* justify-content: center; */
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.homepage-header-main-heading {
+  display: inline;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 72px;
+  color: #fff;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-@media all and (max-width: 600px) {
-  .homePage-header-container {
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 0 auto;
-    background-color: #2f2e41;
-    width: 100%;
-    overflow: hidden;
-    height: auto;
+.homepage-header-main-img {
+  height: auto;
+  width: 40%;
+}
+/* stylelint-disable-next-line at-rule-empty-line-before */
+@media screen and (max-width: 850px) {
+  .homepage-header-header {
+      width: 100%;
+      background-color: #2f2e41;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 40px 0;
+  }
+  /* stylelint-disable-next-line rule-empty-line-before */
+  .homepage-header-main-heading {
+      font-size: 36px;
+      text-align: center;
+      padding: 20px;
+      width: 50%;
   }
 
-  .homePage-header-text {
-    font-family: 'Nunito Sans', sans-serif;
-    color: #fff;
-    margin-top: 70px;
-    height: 100px;
-    top: 220px;
-    border-radius: nullpx;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: 0 em;
-    text-align: center;
-    padding-bottom: 40%;
+  .homepage-header-main-img {
+      padding: auto;
+      height: 300px;
+      width: 300px;
   }
-
-  .homePage-header-image {
-    margin-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+/* stylelint-disable-next-line no-missing-end-of-source-newline */
 }
