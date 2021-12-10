@@ -1,0 +1,159 @@
+@media all and (min-width: 850px) {
+  .formBackground {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(49, 49, 49, 0.8);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formContainer {
+    width: 80vw;
+    height: 70vh;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 px 5px 15px;
+    padding: 25px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formContainer .title {
+    text-align: left;
+    margin: 4%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .hrule-modal {
+    background-color: #d0cde1;
+    border: 0;
+    height: 2px;
+    margin: 0 10px;
+  }
+
+  .formContainer .body {
+    font-size: 1.7rem;
+  }
+
+  .formContainer .footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formContainer .footer-form button {
+    width: 150px;
+    height: 45px;
+    margin: 30px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .cancel-Btn {
+    background: transparent;
+    color:#3F3D56 !important;
+  }
+
+  .submit-Btn {
+    background: #7C639F;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .formBackground {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(49, 49, 49, 0.8);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formContainer {
+    width: 60vw;
+    height: 70vh;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 px 5px 15px;
+    padding: 25px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formContainer .title {
+    text-align: left;
+    margin: 4%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .hrule-modal {
+    background-color: #d0cde1;
+    border: 0;
+    height: 2px;
+    margin: 0 10px;
+  }
+
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .formContainer .body {
+    font-size: 1.7rem;
+  }
+
+  .formContainer .footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formContainer .footer-form button {
+    width: 150px;
+    height: 45px;
+    margin: 30px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .cancel-Btn {
+    background: transparent;
+    color: #3F3D56 !important;
+  }
+
+  .submit-Btn {
+    background: #7C639F;
+  }
+}
