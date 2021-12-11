@@ -129,7 +129,7 @@ class FormAddDevInfoField extends React.Component {
                 onChange={this.setDifferentDevProfileIds}
               />
               <div className="error-div">{this.state.errorMessage}</div>
-              <hr className="hrule-modal" />
+              <hr className="hrule-modal-bottom" />
               <div className="footer-form">
                 <button onClick={this.closeAddDevInfoModal} className="cancel-Btn">
                   Cancel
