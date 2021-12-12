@@ -12,10 +12,11 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "stylelint-config-standard": "^22.0.0",
+    "axios": "^0.21.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-	"start": "node app.js",
+    "start": "node app.js",
     "postinstall": "npm run build",
     "dev": "react-scripts start",
     "build": "react-scripts build",
@@ -42,7 +43,7 @@
   },
   "proxy": "http://localhost:4000",
   "devDependencies": {
-	"axios": "^0.21.1",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.0.0",
     "eslint": "^7.30.0",
@@ -56,7 +57,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2",
     "style-loader": "^3.1.0",
-	  "stylelint": "^13.13.1",
+    "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0"
   }
 }
