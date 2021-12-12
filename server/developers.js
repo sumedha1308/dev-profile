@@ -19,7 +19,8 @@ const getRepoInfo = (responseRepoData) =>
   }));
 router.get('/:id', (req, res) => {
   const devProfileId = req.params.id;
-  const foundDevProfile = devProfiles.find((devProfile) => devProfile.id === devProfileId);
+  // const foundDevProfile = devProfiles.find((devProfile) => devProfile.id === devProfileId);
+  const foundDevProfile = devProfiles.filter((devProfile) => devProfile.id === devProfileId);
   if (foundDevProfile) {
     res.status(201).send(foundDevProfile);
   } else {
