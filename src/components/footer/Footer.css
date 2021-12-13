@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   margin-top: 20%;
   background-color: #3f3d56;
   color: white;
@@ -8,4 +8,17 @@
   height: 62px;
   font-size: 25px;
   overflow: auto;
+} */
+.footer {
+  /* background: #3F3D56; */
+  background-color: #2f2e41;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Nunito Sans', sans-serif;
 }
