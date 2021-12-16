@@ -1,70 +1,219 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [Developer Profiles](http://developer-profiles-app.herokuapp.com/)<br>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li>
+            <details>
+               <summary><a href="#features">Features</a></summary>
+                  <ul>
+                     <li><a href="#search-developer">Search Developer</a></li>
+                     <li><a href="#Add-developer">Add developer</a></li>
+                     <li><a href="#Developer-info">Developer Information</a></li>
+                  </ul>
+            </details>
+	</li>		
+        <li><a href="#api">API</a></li>
+      </ul>
+    </li>
+    <li><a href="#Enhancement">Enhancement</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm start`
+Developer profile is an ERN(Express, React, Node) web application developed from UI design, where user can easily create their developer profile for storing multiple profile links of a developer in a single shareable page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Here's why:
+* To visit/Share developer's github repositories and social/coding media platforms like CodeChef, HackerRank, Medium, LinkedIn, Twitter at one place.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/dev-profile-homepage-image.png)
 
-### `npm test`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [expressjs](http://expressjs.com/)
+* [react](https://reactjs.org/)
+* [nodejs](https://nodejs.org/en/docs/)
+* [css](https://devdocs.io/css/)
+* [Advance css](https://css-tricks.com/snippets/css/)
+* [heroku](https://dashboard.heroku.com/login)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- GETTING STARTED -->
+## Getting Started
 
-### `npm run eject`
+This is set of instructions and information to use Utility Apps website.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Internet.
+* Any Web Browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Features
 
-## Learn More
+### Search Developer
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/dev-profile-sumedha.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Code Splitting
+### Add developer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/add-developer-form.png)
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Developer Information
 
-### Making a Progressive Web App
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/developer-info-icons.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Advanced Configuration
+## API 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p> Get all developers: </p>
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+GET /api/developers/
+Sample Response Body:
+[{
+	"id": "gcnit",
+	"avatar_url": "https://avatars.githubusercontent.com/u/4833751?v=4"
+}, {
+	"id": "sagarjain0907",
+	"avatar_url": "https://avatars.githubusercontent.com/u/20463272?v=4"
+}]
+Status: 200
 
-### `npm run build` fails to minify
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
+<p>Add a developer: </p>
+<br>
+
+```
+POST /api/developers/
+Sample Request Body:
+{
+	"github_id": "gcnit",
+	"linkedin_id": "gcnit",
+	"codechef_id": "gc_nit",
+	"hackerrank_id": "gcnit",
+	"twitter_id": "gc_nit",
+	"medium_id": "gc_nit"
+}
+
+Sample Response Body:
+{
+	"id": "gcnit"
+}
+Status: 201 (User Created), 400 (GitHub username is invalid)
+```
+
+<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br>
+<p>Get a developer: </p>
+<br>
+
+```
+GET /api/developers/:id/
+Sample Response Body:
+{
+	"id": "gcnit",
+	"avatar_url": "https://avatars.githubusercontent.com/u/4833751?v=4",
+	"name": "Gaurav Chandak",
+	"company": "workat.tech",
+	"blog": "https://workat.tech",
+	"location": "Bangalore, India",
+	"email": null,
+	"bio": "Building workat.tech;\r\nPreviously Software Engineer at @Flipkart, @microsoft and @tracxn",
+	"github_id": "gcnit",
+	"linkedin_id": "gcnit",
+	"codechef_id": "gc_nit",
+	"hackerrank_id": "gcnit",
+	"twitter_id": "gc_nit",
+	"medium_id": "gc_nit",
+	"repos": [{
+		"name": "awesome-learn-to-code",
+		"html_url": "https://github.com/gcnit/awesome-learn-to-code",
+		"description": "A list of awesome resources for learning to code",
+		"updated_at": "2020-08-12T18:21:53Z"
+}]
+}
+Status: 200 (Valid User), 404 (User does not exist)
+```
+<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br>
+<p>Remove a developer </p>
+<br>
+
+```
+DELETE /api/developers/:id/
+
+Status: 204 (Deleted)
+```
+<br>
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- Enhancement -->
+## Enhancement
+
+* Can make frontend more catchy for small screen size.
+* There is always scope to improve coding standards.
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Sumedha Deshpande - [Linkedin](www.linkedin.com/in/sumedha1308) - sumedhasd1308@gmail.com
+
+Project Link: [Utility Apps](https://github.com/sumedha1308/UtilityAppWebsite)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
