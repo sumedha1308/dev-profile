@@ -214,6 +214,6 @@ Don't forget to give the project a star! Thanks again!
 
 Sumedha Deshpande - [Linkedin](www.linkedin.com/in/sumedha1308) - sumedhasd1308@gmail.com
 
-Project Link: [Utility Apps](https://github.com/sumedha1308/UtilityAppWebsite)
+Project Link: [dev_profile](https://github.com/sumedha1308/dev-profile)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
