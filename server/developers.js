@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable no-console */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable no-unused-vars */
@@ -5,8 +6,9 @@ const express = require('express');
 
 const router = express.Router();
 const axios = require('axios');
+const defaultDeveloperData = require('./defaultDevelopersData');
 
-const devProfiles = [];
+const devProfiles = defaultDeveloperData;
 
 const getdevProfileData = () => devProfiles.map((data) => ({ id: data.id, avatar_url: data.avatar_url }));
 
@@ -19,7 +21,6 @@ const getRepoInfo = (responseRepoData) =>
   }));
 router.get('/:id', (req, res) => {
   const devProfileId = req.params.id;
-  // const foundDevProfile = devProfiles.find((devProfile) => devProfile.id === devProfileId);
   const foundDevProfile = devProfiles.filter((devProfile) => devProfile.id === devProfileId);
   if (foundDevProfile) {
     res.status(201).send(foundDevProfile);
@@ -29,6 +30,7 @@ router.get('/:id', (req, res) => {
 });
 router.get('/', (req, res) => {
   if (getdevProfileData().length > 0) {
+    // console.log(`res after adding developer:${getdevProfileData()}`);
     res.status(200).send(getdevProfileData());
   } else {
     res.status(404).send('No developers added yet');
