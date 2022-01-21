@@ -40,9 +40,11 @@
   }
   /* stylelint-disable-next-line rule-empty-line-before */
   .homepage-header-main-heading {
-      font-size: 25px;
+      font-size: 36px;
       text-align: center;
       padding-top: 20px;
+      padding-bottom: 40px;
+      width: 100%;
   }
 
   .homepage-header-main-img {
