@@ -18,9 +18,10 @@
 }
 
 .logo-img {
-  vertical-align: middle;
   margin: 2%;
   margin-left: 6%;
+  height: 4%;
+  width: 4%;
 }
 
 .dev-profile-item {
@@ -28,7 +29,7 @@
   color: #555;
   margin-left: 6%;
   height: 50px;
-  width: 70%;
+  width: 90%;
   border-radius: 10px;
   border-color: #d0cde1;
   border-style: solid;
@@ -45,4 +46,38 @@
 .logo-lable {
   display: flex;
   flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+  .logo-lable {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo-img {
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 4%;
+    height: 12%;
+    width: 12%;
+  }
+
+  .label-input {
+    margin-top: 12%;
+    font-size: 50%;
+    font-weight: 520;
+  }
+
+  .dev-profile-item {
+    color: #555;
+    margin-left: 6%;
+    height: 20px;
+    width: 90%;
+    border-radius: 5px;
+    border-color: #d0cde1;
+    border-style: solid;
+    border-width: 1px;
+    text-indent: 15px;
+    background-color: #fefefe;
+  }
 }

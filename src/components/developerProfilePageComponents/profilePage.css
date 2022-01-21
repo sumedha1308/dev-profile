@@ -1,5 +1,5 @@
 .dev-profile-header {
-  height: 50px;
+  height: 5rem;
   background-color: #2f2e41;
   color: #fff;
   font-size: 24px;
@@ -32,7 +32,6 @@
 
 .dev-info-profile-avatar img {
   border-radius: 50%;
-  border-style: groove;
 }
 
 .developer-basic-info {
@@ -68,10 +67,6 @@
   color: #0768fa;
 }
 
-/* .dev-profile-links a:hover {
-  cursor: pointer;
-} */
-
 .developer-other-info {
   margin: 30px 10px;
   font-size: 16px;
@@ -79,7 +74,7 @@
 
 .align-info-sec {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .loc-icon {
@@ -146,4 +141,149 @@
   font-weight: 600;
   line-height: 50px;
   margin: 50px 0;
+}
+
+@media (max-width: 600px) {
+  .dev-profile-header {
+    height: 3rem;
+    background-color: #2f2e41;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dev-info-container {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 10vw 50px 10vw;
+  }
+
+  .dev-info-profile-avatar img {
+    border-radius: 50%;
+    height: 60%;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .developer-basic-info {
+    margin: 10px;
+  }
+
+  .developer-name {
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+  }
+
+  .developer-bio {
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  .dev-profile-links {
+    margin-top: 5%;
+    margin-left: 10%;
+    /* margin-right: 3%; */
+    margin-bottom: 1%;
+  }
+
+  .dev-profile-links a {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .blog-link {
+    cursor: pointer;
+  }
+
+  .blog-link a {
+    text-decoration: none;
+    color: #0768fa;
+  }
+
+  .loc-info {
+    margin: 0px;
+  }
+
+  .align-info-sec {
+    display: flex;
+  }
+  .developer-other-info {
+    /* margin: 0.1%; */
+    font-size: 10px;
+  }
+
+  .loc-icon {
+    font-size: 15px;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+  }
+
+  .devprofile-repo-section {
+    background-color: #fff;
+  }
+
+  .github-repo-heading {
+    color: #3f3d56;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    margin: 50px 0;
+  }
+
+  .hrule-r {
+    background-color: #d0cde1;
+    border: 0;
+    height: 2px;
+    margin: 0 7vw;
+  }
+
+  .repo {
+    margin: 30px 7vw;
+  }
+
+  .dev-repo-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .dev-repo-name a {
+    text-decoration: none;
+    color: #0768fa;
+  }
+
+  .dev-repo-updated-at {
+    font-size: 22px;
+    line-height: 33px;
+    color: #b2b1bb;
+    margin-left: 30px;
+  }
+
+  .dev-repo-description {
+    color: #3f3d56;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .no-repos-found {
+    color: #3f3d56;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    margin: 50px 0;
+  }
 }
