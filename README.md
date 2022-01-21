@@ -20,8 +20,10 @@
                <summary><a href="#features">Features</a></summary>
                   <ul>
                      <li><a href="#search-developer">Search Developer</a></li>
-                     <li><a href="#Add-developer">Add developer</a></li>
-                     <li><a href="#Developer-info">Developer Information</a></li>
+                     <li><a href="#Homepage mobile view">Homepage mobile view</a></li>
+                     <li><a href="#Developer Information on Full size screen">Developer Information on Full size screen</a></li>
+		     <li><a href="#Developer Information on Mobile view">Developer Information on Mobile view</a></li>
+		     <li><a href="#Developer GitHub repositories on Mobile view">Developer GitHub repositories on Mobile view</a></li>
                   </ul>
             </details>
 	</li>		
@@ -43,7 +45,7 @@ Developer profile is an ERN(Express, React, Node) web application developed from
 Here's why:
 * To visit/Share developer's github repositories and social/coding media platforms like CodeChef, HackerRank, Medium, LinkedIn, Twitter at one place.
 
-![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/dev-profile-homepage-image.png)
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/full-screen-homepage.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -73,23 +75,45 @@ This is set of instructions and information to use Utility Apps website.
 
 ## Features
 
-### Search Developer
+### * Search Developer
 
-![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/dev-profile-sumedha.png)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Add developer
-
-![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/add-developer-form.png)
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/full-screen-searchbar.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Developer Information
 
-![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/developer-info-icons.png)
+
+### * Homepage mobile view
+
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/mobile-view-homepage.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### * Developer Information on Full size screen
+
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/full-screen-individual-dev.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### * Developer Information on Mobile view
+
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/mobile-view-individual-dev.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### * Developer GitHub repositories on Mobile view
+
+![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/mobile-view-repo.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 ## API 
 
@@ -97,7 +121,7 @@ This is set of instructions and information to use Utility Apps website.
 
 <br>
 
-```
+```js
 GET /api/developers/
 Sample Response Body:
 [{
@@ -109,14 +133,14 @@ Sample Response Body:
 }]
 Status: 200
 
-```
+```js
 
 <br>
 <p align="right">(<a href="#top">back to top</a>)</p>
 <p>Add a developer: </p>
 <br>
 
-```
+```js
 POST /api/developers/
 Sample Request Body:
 {
@@ -141,7 +165,7 @@ Status: 201 (User Created), 400 (GitHub username is invalid)
 <p>Get a developer: </p>
 <br>
 
-```
+```js
 GET /api/developers/:id/
 Sample Response Body:
 {
@@ -167,14 +191,14 @@ Sample Response Body:
 }]
 }
 Status: 200 (Valid User), 404 (User does not exist)
-```
+```js
 <br>
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br>
 <p>Remove a developer </p>
 <br>
 
-```
+```js
 DELETE /api/developers/:id/
 
 Status: 204 (Deleted)
@@ -186,7 +210,6 @@ Status: 204 (Deleted)
 <!-- Enhancement -->
 ## Enhancement
 
-* Can make frontend more catchy for small screen size.
 * There is always scope to improve coding standards.
 
 
@@ -212,7 +235,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Sumedha Deshpande - [Linkedin](www.linkedin.com/in/sumedha1308) - sumedhasd1308@gmail.com
+Sumedha Deshpande - [Linkedin](https://www.linkedin.com/in/sumedha1308/) - sumedhasd1308@gmail.com
 
 Project Link: [dev_profile](https://github.com/sumedha1308/dev-profile)
 
