@@ -6,7 +6,7 @@ const FormFieldDevInfo = ({ src, label, name, onChange }) => (
   <div className="form-item">
     <div className="logo-label-input">
       <div className="logo-lable">
-        <img src={src} height="30px" width="30px" alt="logo" className="logo-img" />
+        <img src={src} alt="logo" className="logo-img" />
         <div className="label-input">{label}</div>
       </div>
     </div>

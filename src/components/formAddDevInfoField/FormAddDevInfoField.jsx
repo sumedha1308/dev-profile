@@ -87,7 +87,7 @@ class FormAddDevInfoField extends React.Component {
       <div className="formBackground">
         <div className="formContainer">
           <div className="title">
-            <h1>Add Developer profile</h1>
+            <div className="formContainerTitle">Add Developer profile</div>
           </div>
           <div className="body">
             <hr className="hrule-modal" />

@@ -53,8 +53,6 @@ const ProfilePageTopSection = ({
                 <span className="loc-info">{company}</span>
               </>
             )}
-          </div>
-          <div className="align-info-sec blog-link">
             {blog && (
               <>
                 <img src={BlogIcon} height="16px" width="16px" alt="blog icon" className="loc-icon" />
@@ -64,6 +62,7 @@ const ProfilePageTopSection = ({
               </>
             )}
           </div>
+          {/* <div className="align-info-sec blog-link"></div> */}
         </div>
       </div>
     </span>
