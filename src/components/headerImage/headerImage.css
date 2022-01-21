@@ -25,6 +25,7 @@
 .homepage-header-main-img {
   height: auto;
   width: 40%;
+  margin-right: 5%;
 }
 /* stylelint-disable-next-line at-rule-empty-line-before */
 @media screen and (max-width: 850px) {
