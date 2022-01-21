@@ -19,11 +19,11 @@
             <details>
                <summary><a href="#features">Features</a></summary>
                   <ul>
-                     <li><a href="#search-developer">Search Developer</a></li>
-                     <li><a href="#Homepage mobile view">Homepage mobile view</a></li>
-                     <li><a href="#Developer Information on Full size screen">Developer Information on Full size screen</a></li>
-		     <li><a href="#Developer Information on Mobile view">Developer Information on Mobile view</a></li>
-		     <li><a href="#Developer GitHub repositories on Mobile view">Developer GitHub repositories on Mobile view</a></li>
+                     <li><a href="#search-developer">* Search Developer</a></li>
+                     <li><a href="#Homepage mobile view">* Homepage mobile view</a></li>
+                     <li><a href="#Developer Information on Full size screen">* Developer Information on Full size screen</a></li>
+		     <li><a href="#Developer Information on Mobile view">* Developer Information on Mobile view</a></li>
+		     <li><a href="#Developer GitHub repositories on Mobile view">* Developer GitHub repositories on Mobile view</a></li>
                   </ul>
             </details>
 	</li>		
