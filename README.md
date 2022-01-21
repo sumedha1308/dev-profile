@@ -19,11 +19,11 @@
             <details>
                <summary><a href="#features">Features</a></summary>
                   <ul>
-                     <li><a href="#search-developer">* Search Developer</a></li>
-                     <li><a href="#Homepage mobile view">* Homepage mobile view</a></li>
-                     <li><a href="#Developer Information on Full size screen">* Developer Information on Full size screen</a></li>
-		     <li><a href="#Developer Information on Mobile view">* Developer Information on Mobile view</a></li>
-		     <li><a href="#Developer GitHub repositories on Mobile view">* Developer GitHub repositories on Mobile view</a></li>
+                     <li><a href="#search-developer">Search Developer</a></li>
+                     <li><a href="#Homepage mobile view">Homepage mobile view</a></li>
+                     <li><a href="#Developer Information on Full size screen">Developer Information on Full size screen</a></li>
+		     <li><a href="#Developer Information on Mobile view">Developer Information on Mobile view</a></li>
+		     <li><a href="#Developer GitHub repositories on Mobile view">Developer GitHub repositories on Mobile view</a></li>
                   </ul>
             </details>
 	</li>		
@@ -75,7 +75,7 @@ This is set of instructions and information to use Utility Apps website.
 
 ## Features
 
-### * Search Developer
+### Search Developer
 
 ![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/full-screen-searchbar.png)
 
@@ -83,7 +83,7 @@ This is set of instructions and information to use Utility Apps website.
 
 
 
-### * Homepage mobile view
+### Homepage mobile view
 
 ![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/mobile-view-homepage.png)
 
@@ -91,7 +91,7 @@ This is set of instructions and information to use Utility Apps website.
 
 
 
-### * Developer Information on Full size screen
+### Developer Information on Full size screen
 
 ![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/full-screen-individual-dev.png)
 
@@ -99,7 +99,7 @@ This is set of instructions and information to use Utility Apps website.
 
 
 
-### * Developer Information on Mobile view
+### Developer Information on Mobile view
 
 ![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/mobile-view-individual-dev.png)
 
@@ -107,7 +107,7 @@ This is set of instructions and information to use Utility Apps website.
 
 
 
-### * Developer GitHub repositories on Mobile view
+### Developer GitHub repositories on Mobile view
 
 ![image](https://github.com/sumedha1308/dev-profile/blob/master/src/resources/mobile-view-repo.png)
 
