@@ -17,12 +17,27 @@
 
 .developer-avatar-name {
   color: #a48d63;
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 20px;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .developer-avatar-arrow {
   color: #006af9;
   font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .developer-avatar-name {
+    color: #a48d63;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .individual-dev img {
+    width: 55%;
+    height: 55%;
+    border-radius: 50%;
+  }
 }

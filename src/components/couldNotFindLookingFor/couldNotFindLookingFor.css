@@ -10,7 +10,7 @@
 
   .question-add-dev {
     font-size: 36px;
-    margin: 50px;
+    margin: 40px;
     color: #3f3d56;
     text-align: center;
   }
@@ -27,8 +27,8 @@
   }
 
   .question-add-dev {
-    font-size: 3rem;
-    margin: 50px;
+    font-size: 1.2rem;
+    margin: 10%;
     color: #3f3d56;
     text-align: center;
   }

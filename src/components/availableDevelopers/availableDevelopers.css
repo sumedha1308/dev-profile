@@ -12,9 +12,17 @@
   margin: 0 50px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 600px) {
   .developers-container {
     grid-template-columns: 1.5fr;
+  }
+
+  .devsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content;
+    justify-items: left;
+    width: 100%;
   }
 }
 
