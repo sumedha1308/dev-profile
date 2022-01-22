@@ -26,7 +26,7 @@ class FormAddDevInfoField extends React.Component {
   submitHandlerButton = (event) => {
     event.preventDefault();
     if (this.state.githubId.trim() === '') {
-      this.setState({ errorMessage: 'GitHub user ID is mandatory.', loading: false });
+      this.setState({ errorMessage: 'GitHub user ID is mandatory.' });
     } else {
       this.setState({ loading: true });
       this.formPostAddDevInfo();

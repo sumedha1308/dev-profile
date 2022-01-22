@@ -163,4 +163,9 @@
     background: #7C639F;
     margin-left: 5%;
   }
+
+  .error-div {
+    margin: 10px;
+    font-size: 15px;
+  }
 }
