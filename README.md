@@ -133,7 +133,7 @@ Sample Response Body:
 }]
 Status: 200
 
-```js
+```
 
 <br>
 <p align="right">(<a href="#top">back to top</a>)</p>
