@@ -191,7 +191,7 @@ Sample Response Body:
 }]
 }
 Status: 200 (Valid User), 404 (User does not exist)
-```js
+```
 <br>
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br>
